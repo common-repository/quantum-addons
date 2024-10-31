@@ -1,0 +1,48 @@
+.el-quantum-advance-slider-outer-container,
+.el-quantum-advance-slider-container{
+    position: relative;
+}
+.el-quantum-advance-slider-container .swiper-pagination,
+.el-quantum-advance-slider-container .swiper-scrollbar{
+    position: static;
+}
+.el-quantum-advance-slider-container .el-quantum-slide{
+    height: unset;
+}
+.el-quantum-advance-slider-outer-container .el-quantum-slider-btn{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 999;
+}
+.el-quantum-advance-slider-outer-container .el-quantum-slider-btn svg{
+    vertical-align: middle;
+}
+.el-quantum-advance-slider-outer-container .el-quantum-slider-btn.el-quantum-prev-btn{
+    left: 0;
+    transform: translateY(-50%) translateX( calc(-0px - var(--el-qunt-buttons-position)));
+}
+.el-quantum-advance-slider-outer-container .el-quantum-slider-btn.el-quantum-next-btn{
+    right: 0;
+    transform: translateY(-50%) translateX( var(--el-qunt-buttons-position));
+}
+.el-quantum-slider-btn{
+    padding: 13px 25px;
+    border-radius: 0;
+}
+.el-quantum-slider-btn svg{
+    color: inherit;
+    fill: currentColor;
+}
+.el-quantum-advance-slider-container .el-quantum-slider-pagination .swiper-pagination-bullet{
+    opacity: 1;
+}
+.el-quantum-advance-slider-outer-container .el-quantum-slider-scrollbar{
+    width: 100%;
+}
+.el-quantum-advance-slider-container.swiper-container .swiper-wrapper{
+    overflow: unset;
+}
+.el-quantum-advance-slider-container.swiper-container .swiper-slide.slide-link{
+    display: block;
+}
